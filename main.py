@@ -4,7 +4,7 @@
 '''
 
 # 숏코딩에 절여져서 띄어쓰기가 다소 생략되어있다.
-for i in range(1,101):
+for i in range(1,int(input())+1):
     s=''
     if i%3==0:s+='fizz'
     if i%5==0:s+='buzz'
